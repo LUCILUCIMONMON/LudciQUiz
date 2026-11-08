@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101513">
+    <meta name="description" content="Jelajahi dunia pemrograman dan uji kemampuanmu di Ludciquezt.">
+    <title>Ludciquezt — World Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon/favicon.jpeg">
+
+
+    <script defer src="scripts/data.js?v=20"></script>
+    <script defer src="scripts/world-app.js?v=back-fix-1"></script>
+</head>
+<body>
+    <div class="app-shell" id="app">
+        <header class="topbar">
+            <a class="brand" href="#home" aria-label="Ludciquezt beranda">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>LUDCIQUEZT<span class="brand-dot">.</span></span>
+            </a>
+            <nav class="top-nav" aria-label="Navigasi utama">
+                <button class="nav-link is-active" data-view="worlds">World map</button>
+                <button class="nav-link" data-view="settings">Pengaturan</button>
+            </nav>
+            <div class="top-score"><span class="score-spark" aria-hidden="true">✦</span><span id="header-score">0 XP</span></div>
+        </header>
+        <main id="view" tabindex="-1"></main>
+        <footer class="site-footer"><span>BUILT TO LEARN</span><span>HTML <i></i> CSS <i></i> JS</span></footer>
+    </div>
+</body>
+</html>

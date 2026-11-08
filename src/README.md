@@ -1,0 +1,1 @@
+alur web ya dimulai diawali buka splash.html
